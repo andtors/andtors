@@ -27,8 +27,8 @@ public class Main {
   public static void main(string[] args){
       Programmer me = new Programmer("André", 24);
 
-      System.out.println(welcomeProgrammer());
-      System.out.println(carrerObjectives());
+      System.out.println(me.welcomeProgrammer());
+      System.out.println(me.carrerObjectives());
   }
 }
 
