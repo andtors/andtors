@@ -18,7 +18,9 @@ public class Programmer extends Person implements Carrer {
     @Override
     public String carrerObjectives(){
        return "My goal is to enter the web development career, you can see my projects below.";
-    }    
+    }
+
+    // Yes Java is verbose and so my readme :D
 }
 
 public class Main {
