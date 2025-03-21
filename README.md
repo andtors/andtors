@@ -12,7 +12,8 @@ public class Programmer extends Person implements Carrer {
 
     @Override
     public String welcomePerson(){
-      return "Hello, my name is " + super.name + ", i am a " + super.age + " years old and an aspiring programmer open for jobs.";
+      return "Hello, my name is " + super.name + ", i am a " + super.age + " years old" +
+             " and an aspiring programmer open for jobs.";
     }
 
     @Override
