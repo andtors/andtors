@@ -2,7 +2,7 @@
 
 public class Programmer extends Person implements Carrer {
     // knowledges
-    private String[] languageProgram = {"Java", "PHP", "Javascript"};
+    private String[] languageProgram = {"Java", "PHP", "Javascript", "SQL"};
     private String[] frameworksBack = {"Spring", "Laravel", "Express"};
     private String[] frameworksFront = {"Next.JS, Vue.JS, Vite.JS"};
     
