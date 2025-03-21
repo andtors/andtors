@@ -1,11 +1,33 @@
-### Hi there 👋
+```Java
 
-🔭 I’m currently working on being a fullstack programmer
-- 🌱 I’m currently learning JS and React for front-end and Java, Springboot framework and mongodb for back-end
-- 👯 I’m looking to collaborate on new projects to learn how to code better
-- 🤔 I’m looking for help with various type of programs, app's and other types of tecnologies
-- 💬 Ask me about anything!
-- 📫 How to reach me: linkedin.com/in/andtors
-- ⚡ Fun fact: Did you know? Im from Brazil!
+public class Programmer extends Person implements Carrer {
+    // knowledges
+    private String[] languageProgram = {"Java", "PHP", "Javascript"};
+    private String[] frameworksBack = {"Spring", "Laravel", "Express"};
+    private String[] frameworksFront = {"Next.JS, Vue.JS, Vite.JS"};
+    
+    public Programmer(String name, Integer age){
+      super(name, age);
+    }
 
+    @Override
+    public String welcomePerson(){
+      return "Hello, my name is " + super.name + ", i am a " + super.age + " years old and an aspiring programmer open for jobs." 
+    }
 
+    @Override
+    public String carrerObjectives(){
+       return "My goal is to enter the web development career, you can see my projects below.";
+    }    
+}
+
+public class Main {
+  public static void main(string[] args){
+      Programmer me = new Programmer("André", 24);
+
+      System.out.println(welcomeProgrammer());
+      System.out.println(carrerObjectives());
+  }
+}
+
+```
